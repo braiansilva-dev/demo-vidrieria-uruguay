@@ -142,7 +142,7 @@ h1, h2, h3 {
 /*************************************** INICIO ********************************************/
 .inicio {
     height: 100vh;
-    background-image: url('/img/hero.webp');
+    background-image: url('../img/hero.webp');
     background-repeat: no-repeat;
     background-position: right;
     background-size: cover;
@@ -180,7 +180,7 @@ h1, h2, h3 {
 }
 
 .inicio-container h1 span {
-    background: transparent url(/img/bandera-uru.webp);
+    background: transparent url(../img/bandera-uru.webp);
     -webkit-text-fill-color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
