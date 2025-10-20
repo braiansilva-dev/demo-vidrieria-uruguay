@@ -141,7 +141,7 @@ h1, h2, h3 {
 
 /*************************************** INICIO ********************************************/
 .inicio {
-    height: 100vh;
+    min-height: 100vh;
     background-image: url('../img/hero.webp');
     background-repeat: no-repeat;
     background-position: right;
@@ -162,11 +162,11 @@ h1, h2, h3 {
 }
 
 .inicio-container  {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    top: 23%;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20rem;
 }
 
 .inicio-container h1 {
@@ -518,6 +518,13 @@ h1, h2, h3 {
 
 
 /*************************************** RESPONSIVE ****************************************/
+@media only screen and (max-width: 375px) {
+  /* Estilos para pantallas pequeñas (iPhone SE, 6, 7, 8, etc.) */
+  .inicio-container  {
+    padding-top: 10rem;
+  }
+}
+
 
 /* SM - Small (teléfonos grandes en horizontal) */
 @media (min-width: 576px) {
