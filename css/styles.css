@@ -176,6 +176,7 @@ h1, h2, h3 {
     text-align: center;
     line-height: 6rem;
     padding-bottom: 3rem;
+    margin: 0 auto;
 }
 
 .inicio-container h1 span {
