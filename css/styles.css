@@ -648,6 +648,10 @@ h1, h2, h3 {
     
   }
 
+  .p {
+    line-height: 2.5rem;
+  }
+
   .cards {
     grid-template-columns: repeat(4, 1fr);
     justify-items: center;
